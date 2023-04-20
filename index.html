@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>Phone Alarm</title>
+	<link rel="shortcut icon" href="assets/img/favicon.png?v=2" type="image/x-icon" />
+	<link rel="stylesheet" href="assets/css/phone.css" media="all" />
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+	<script src="assets/js/alarm.js" defer></script>
+</head>
+
+<body>
+	<div id="wrapper">
+		<main>
+			<div class="container">
+				<section>
+					<div id="phone-face">
+						<div id="phone-camera">
+							<figure>
+								<img src="assets/img/camera_lens_PNG61_48x48.png">
+							</figure>
+							<hr>
+						</div>
+						<div id="phone-screen">
+							<h2>00:00:00</h2>
+							<p><i class="fa-solid fa-bell"></i> 00:00</p>
+							<form name="alarm" novalidate>
+								<input name="time" type="text" placeholder="HH:MM">
+								<input name="set" type="button" value="Set Alarm">
+							</form>	
+						</div>
+						<div id="home">
+							<div id="home-button"></div>
+						</div>
+					</div>
+				</section>
+			</div>
+		</main>
+		<noscript>
+			<p>This page requires a JavaScript-enabled browser.</p>
+		</noscript>
+	</div>
+</body>
+
+</html>
